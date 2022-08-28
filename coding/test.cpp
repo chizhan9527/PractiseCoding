@@ -1,11 +1,13 @@
 #include <iostream>
+#include <vector>
 using namespace std;
+
 int main()
 {
-    for (int i = 0; i < 1; i++)
-    {
-        cout << i << endl;
-    }
+    vector<int> nums;
+    nums.push_back(1);
+    nums.push_back(2);
+    cout << nums.size() << endl;
     system("pause");
     return 0;
 }
